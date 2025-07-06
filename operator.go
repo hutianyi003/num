@@ -7,7 +7,8 @@ type Number interface {
 	constraints.Integer | constraints.Float
 }
 
-// Add computes the sum of two integer values and returns the result.
+// Add computes the sum of two [Number] values and returns the result.
+// [Number] can be any [constraints.Integer] or [constraints.Float]
 //
 // The details can be found at [Addition].
 //
