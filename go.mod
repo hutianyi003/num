@@ -1,4 +1,4 @@
-module github.com/hutianyi003/num
+module github.com/hutianyi003/num/v2
 
 go 1.24.1
 
